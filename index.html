@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMPA Cola</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+   <div class="container">
+      <!-- Navbar -->
+      <div class="navbar">
+        <div class="menu">
+            <h3 class="logo">CAMPA<span>Cola</span></h3>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Menu Video Background (hidden by default) -->
+      <div class="video-container menu-video">
+        <video autoplay muted loop id="menu-video">
+            <source src="campa2.mp4" type="video/mp4">
+            <img src="assets/menu-fallback.jpg" alt="Campa Cola Menu">
+        </video>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-container">
+        <div class="main">
+            <header>
+                <header>
+  <div class="overlay">
+    <!-- Move video here -->
+    <video autoplay muted loop playsinline class="bg-video">
+        <source src="campa1.mp4" type="video/mp4">
+        <!-- Fallback text if needed -->
+    </video>
+
+    <!-- Text content on top -->
+    <div class="inner">
+        <h2 class="title">CAMPA</h2>
+        <p>Born in India, made for every mood...</p>
+        <a href="#" class="btn">Read more</a>
+    </div>
+  </div>
+</header>
+
+            </header>
+        </div>
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+      </div>
+
+      <!-- Menu Links -->
+      <div class="links">
+        <ul>
+            <li><a href="#" style="--i: 0.05s">Home</a></li>
+            <li><a href="#" style="--i: 0.1s">Products</a></li>
+            <li><a href="#" style="--i: 0.15s">About</a></li>
+            <li><a href="#" style="--i: 0.3s">Contact</a></li>
+        </ul>
+      </div>
+   </div>
+    
+   <script src="script.js"></script>
+</body>
+</html>
